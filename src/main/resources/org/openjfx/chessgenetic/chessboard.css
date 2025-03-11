@@ -1,0 +1,58 @@
+.main-container {
+    -fx-background-color: #312e2b;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-min-width: 600px;
+    -fx-min-height: 600px;
+}
+
+.chess-board {
+    -fx-background-color: #272522;
+    -fx-padding: 20px;
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+    -fx-alignment: center;
+}
+
+.chess-square {
+    min-height: 64px;
+    -fx-pref-width: 64px;
+    -fx-pref-height: 64px;
+    -fx-max-width: 64px;
+    -fx-max-height: 64px;
+}
+
+.light-square {
+    -fx-background-color: #ebecd0;
+}
+
+.dark-square {
+    -fx-background-color: #779556;
+}
+
+.coordinate-label {
+    -fx-text-fill: #999999;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-alignment: center;
+}
+
+.input-label {
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-pref-width: 100px;
+}
+
+.button {
+    -fx-background-color: #779556;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+}
+
+.button:hover {
+    -fx-background-color: #68864b;
+}
